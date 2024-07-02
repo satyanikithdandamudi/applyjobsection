@@ -18,11 +18,14 @@ body {
     display: flex;
     flex-direction: column; 
     background-color: rgb(255, 255, 255);
+    
 }
 
 .applyjob-sub-container1{
     display: flex;
     flex-direction: row;
+    
+    
 }
 .companys-icon1{
     width: 50px;
@@ -33,6 +36,11 @@ body {
 
 }
 
+.applyjob-sub-container2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .applyjob-sub-container3{
     display: flex;
     flex-direction: row;
@@ -41,4 +49,18 @@ body {
 .location-icon{
     width:25px;
     height: 25px;
+}
+.money-icon{
+    width:25px;
+    height: 25px;
+}
+
+.applyjob-sub-container4{
+
+    display: flex;
+    flex-direction: row;
+}
+.applyjob-sub-container5{
+    display: flex;
+    flex-direction: row;
 }
