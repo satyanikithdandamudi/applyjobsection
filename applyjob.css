@@ -3,6 +3,7 @@
 body {
     overflow-x: hidden; /* Prevent horizontal scroll */
     background-color: rgb(239, 239, 240);
+    
 }
 
 .applyjob-section{
@@ -14,8 +15,8 @@ body {
     border-radius: 10px;
     margin-top: 2%;
     padding: 15px;
-    margin-left: 13%;
-    margin-right: 38%;
+    
+    width: 660px;
     display: flex;
     flex-direction: column; 
     background-color: rgb(255, 255, 255);    
@@ -177,37 +178,129 @@ body {
     font-family: "roboto";
    
 }
-.job-role-section{
+.job-down-section{
     
 }
-.job-role-section h1{
+.job-down-section h1{
     font-size: 18px;
     font-family: "roboto";
     margin-top: 0px;
     margin-bottom: 20px;
-
 }
-.job-role-sub1{
+.job-down-sub1{
     display: flex;
     flex-direction: row;
-    margin-right: 100px;
+    margin-right:0px;
+    width:400px;
     
     
 }
-.job-role-sub1 h1{
+.job-down-sub1 h1{
     font-size: 15px;
     font-family: "roboto";
     margin-top: 0px;
     color: rgb(103, 103, 103);
     font-weight:400;
+    margin-bottom: 8px;
 }
-.job-role-sub1 p{
+.job-down-sub1 p{
     font-size: 15px;
-    font-family: "roboto";
+    font-family:"roboto";
     margin-top: 0px;
+    color: rgb(35, 35, 35);
 }
-.job-role-position{
+.job-down-position{
     display: flex;
     flex-direction: column;
+}
 
+
+
+.applyjob-side-section{
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-left: 1.2%;
+    margin-right: 0%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(255, 255, 255);   
+}
+.applyjob-sidesub-container1{
+    display: flex;
+    flex-direction: row;
+}
+.applyjob-sidesub-container2{
+    display: flex;
+    flex-direction: column;
+}
+.applyjob-sidesub-container2 h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 13px;
+    font-family: "roboto";
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.applyjob-sidesub-container2 p{
+    font-size: 14px;
+    font-family: "roboto";
+    margin-left: 13px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.applyjob-sidesub-container3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0px;
+}
+.applyjob-sidesub-container3 p{
+    font-size: 14px;
+    font-family: "roboto";
+    color:rgb(155, 155, 155);
+}
+.applyjob-sidesub-container4{
+    background-color: rgb(239, 239, 240);
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+    border-radius: 10px;
+}
+.applyjob-sidesub-container4-1{ 
+    margin-right:15%;
+}
+.applyjob-sidesub-container4-1 h1{
+    font-size: 13px;
+    font-family: "roboto";
+    font-weight: 500;
+    color:rgb(160, 160, 160);
+}
+.applyjob-sidesub-container4-1 p{
+    font-size: 13px;
+    font-family: "roboto";
+    font-weight: 600;
+    color:rgb(146, 146, 146);
+}
+.applyjob-sidesub-container5{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.applyjob-sidesub-container5-1{
+    background-color:  rgb(239, 239, 240);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding:4px;
+    height: 21px;
+    border-radius: 7px; 
+}
+.applyjob-sidesub-container5-1 p{
+    font-size: 10px;
+    font-family: "roboto";
+    font-weight: 500;
+    color:rgb(160, 160, 160);
 }
