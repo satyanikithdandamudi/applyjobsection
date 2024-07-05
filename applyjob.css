@@ -322,3 +322,9 @@ body {
     flex-direction: column; 
     background-color: rgb(255, 255, 255);   
 }
+
+.small-icons{
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+}
