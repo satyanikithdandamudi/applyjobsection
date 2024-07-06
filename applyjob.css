@@ -179,6 +179,24 @@ body {
     font-family: "roboto";
    
 }
+.job-description-section h1{
+
+    font-family: "roboto";
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    font-weight:10;
+    
+}
+.job-description-section p{
+    font-family: "roboto";
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+}
+.list-part li{
+    font-family: roboto;
+    font-size: 15px;
+    color:rgb(70, 70, 70);
+}
 .job-down-section{
     
 }
@@ -311,7 +329,6 @@ body {
 }
 
 
-
 .applyjob-side-section2{
     border-radius: 10px;
     margin-bottom: 5%;
@@ -327,4 +344,17 @@ body {
     width: 18px;
     height: 18px;
     margin-right: 4px;
+}
+.companys-iconsmall{
+    width: 28px;
+    height: 28px;
+    background-color: rgb(233, 233, 233);
+    padding: 5px;
+    border-radius: 10px;
+}
+.footer-para{
+    font-size: 12px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: rgb(93, 93, 93);
 }
